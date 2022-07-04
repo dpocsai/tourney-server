@@ -16,7 +16,6 @@ app.use("/tournaments", tournamentRoutes);
 
 app.get("/", (req, res) => {
   res.send("Welcome to Tourney!");
-  res.redirect("/tournaments");
 });
 
 const PORT = process.env.PORT || 5000;
