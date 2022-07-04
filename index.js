@@ -13,9 +13,6 @@ app.use(bodyParser.json({ extended: true }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 app.use("/tournaments", tournamentRoutes);
-app.get("/", (req, res) => {
-  res.send("Welcome to Tourney!");
-});
 
 const PORT = process.env.PORT || 5000;
 
