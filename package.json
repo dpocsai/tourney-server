@@ -23,5 +23,9 @@
     "mongoose": "^6.3.5",
     "nodemon": "^2.0.16",
     "serve": "^13.0.2"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
   }
 }
